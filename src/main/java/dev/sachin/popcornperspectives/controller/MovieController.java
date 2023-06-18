@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/popcorn-perspectives/api/v1/movie")
+@RequestMapping("/api/v1/movie")
 public class MovieController {
     @Autowired
     private MovieService movieService;

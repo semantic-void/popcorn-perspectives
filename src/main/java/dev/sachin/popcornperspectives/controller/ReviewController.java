@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/popcorn-perspectives/api/v1/review")
+@RequestMapping("/api/v1/review")
 public class ReviewController {
     @Autowired
     private ReviewService reviewService;
